@@ -1,13 +1,13 @@
 @media only screen and (max-width: 900px) {
   header img {
-    width: 100%;
-    height: auto;
+    width: 120px;
+    height: 135px;
     margin: 2px;
   }
 
   nav {
     height: 120px;
-    margin: 5px;
+    margin: 3px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
