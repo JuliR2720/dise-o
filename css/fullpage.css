@@ -18,7 +18,6 @@ body {
 header {
   display: flex;
   background-image: linear-gradient(155deg, #116611, #55aa55);
-  height: auto;
 }
 
 main {
