@@ -17,7 +17,6 @@ body {
 
 header {
   display: flex;
-  background-color: #116611;
   background-image: linear-gradient(155deg, #116611, #55aa55);
 }
 
@@ -37,10 +36,10 @@ header {
 }
 
 nav {
-  background-color: #55aa55;
+  background-image: linear-gradient(155deg, #55aa55, #116611);
 }
 
-li{
+li {
   font-size: 20px;
   color: black;
 }
