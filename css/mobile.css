@@ -1,7 +1,7 @@
 @media only screen and (max-width: 900px) {
   header img {
-    width: 120px;
-    height: 135px;
+    width: 100%;
+    height: auto;
     margin: 2px;
   }
 
