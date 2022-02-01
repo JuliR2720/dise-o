@@ -1,0 +1,41 @@
+@media only screen and (max-width: 900px) {
+  header img {
+    width: 120px;
+    height: 135px;
+    margin: 2px;
+  }
+
+  nav {
+    height: 120px;
+    margin: 2px;
+    border-radius: 10px;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 13px;
+    border: 2px solid black;
+    background-color: coral;
+    border-radius: 20px;
+  }
+
+  main {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  img {
+    width: auto;
+    height: 125px;
+    justify-self: center;
+    margin: 15px;
+  }
+
+  main > div {
+    text-align: center;
+    justify-self: center;
+  }
+}
