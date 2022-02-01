@@ -1,4 +1,15 @@
 @media (orientation: landscape) {
+  header > img:nth-child(1) {
+    order: 3;
+  }
+
+  header > img:nth-child(3) {
+    order: 1;
+  }
+
+  header > div {
+    order: 2;
+  }
   header img {
     height: 135px;
     margin: 2px;
