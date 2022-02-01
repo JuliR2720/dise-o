@@ -45,7 +45,7 @@
 
   img {
     width: auto;
-    height: 200px;
+    height: 170px;
     justify-self: center;
     margin: 15px;
   }
@@ -53,5 +53,10 @@
   main > div {
     text-align: center;
     justify-self: center;
+  }
+
+  main > img:nth-child(4) {
+    width: auto;
+    height: 170px;
   }
 }
