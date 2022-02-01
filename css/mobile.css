@@ -7,8 +7,6 @@
 
   nav {
     height: 120px;
-    margin: 5px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
