@@ -23,6 +23,9 @@ header {
 
 main {
   display: grid;
+  height: 75%;
+  background-color: #fff;
+  color: #314a76;
 }
 footer {
   display: flex;
@@ -43,12 +46,6 @@ nav {
 li {
   font-size: 20px;
   color: black;
-}
-
-main {
-  height: 75%;
-  background-color: #fff;
-  color: #314a76;
 }
 
 footer {

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px) {
+@media (orientation: landscape) {
   header img {
     height: 135px;
     margin: 2px;
@@ -23,9 +23,8 @@
   }
 
   li:hover {
-    background-color:  gray;
+    background-color: gray;
     border: 2px solid black;
-
   }
 
   img {
