@@ -1,12 +1,25 @@
 @media only screen and (max-width: 900px) {
   header img {
-    width: 120px;
+    width: auto;
     height: 135px;
     margin: 2px;
   }
 
+  header > img:nth-child(3) {
+    display: none;
+  }
+
+  header {
+    justify-content: space-between;
+  }
+
+  header > div {
+    margin-top: 30px;
+  }
+
   nav {
     height: 120px;
+    margin: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
